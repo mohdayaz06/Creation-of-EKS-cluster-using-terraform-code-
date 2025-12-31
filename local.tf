@@ -31,8 +31,6 @@ locals {
   }
 }
 
-Nano provider.tf:
-
 provider "aws" {
   region = local.region
 }
